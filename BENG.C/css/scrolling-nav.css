@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:white;
+
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        font-family: "Time New Roman";
+        background-color: black;
+        padding: 15px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+.top-nav-collapse {
+        padding: 0;
+    }
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 120px;
+    text-align: center;
+    background: white;
+
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: white;
+}
+
+.beng {
+    border-radius: 50%;
+    width:auto;
+    height: auto;
+}
+
+.me {
+    width: 50%;
+}
+
+.welcome {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Time New Roman";
+}
+
+.about {
+    font-family:"Time New Roman", serif;
+}
+.experience {
+    float:right;
+}
+
+.knowledge {
+    float: left;
+}
+
+.resume {
+    width:50%;
+    height:auto;
+}
+.download {
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: "Time New Roman", serif;
+    font-weight: bold;
+}
+
+
+td {
+    padding:5px;
+}
+
+h3 {
+    font-family: "Time New Roman";
+}
+
+
+.jumbotron {
+    background: black;
+    color: #FFF;
+    border-radius: 0px;
+}
+
+.jumbotron-sm { 
+    padding-top: 24px;
+    padding-bottom: 24px; 
+}
+
+.jumbotron small {
+    color: #FFF;
+}
+
+.h1 small {
+    font-size: 24px;
+}

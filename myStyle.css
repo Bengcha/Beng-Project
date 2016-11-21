@@ -1,0 +1,148 @@
+body {
+	background-color:white;
+	font-family: "Times New Roman", Times, serif;
+}
+
+li {
+	float:right;
+	padding:1px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size:20px;
+
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black ;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 50px;
+    padding:15px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color: grey;
+    padding:12px;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 15px;
+}
+
+
+.dropdown-content a:hover {
+	color:grey;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.main {
+	font-size: 45px;
+	font-family: monospace;
+	font-weight: bold;
+	color:grey;
+
+}
+
+.about {
+	font-size: 45px;
+	font-family: monospace;
+	font-weight: bold;
+	color:lightblue;
+
+}
+
+.contact {
+	font-size: 40px;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+
+h4 {
+	color: grey;
+
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+.par {
+	height:700px;
+	width:1100px;
+	border-radius: 150px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+textarea {
+	width: 500px;
+	height: 250px;
+	border-style: solid;
+	border-color:cyan;
+	border-width: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+
+}
+
+
+input {
+	margin-top: 5px;
+}
+
+
+
+table {
+	list-style-type: dotted;
+	padding: 25;
+}
+
+td {
+	font-weight: bold;
+}
+
+
+.me {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+.intro {
+	margin-left: 15px;
+}
+
+.banner {
+	width: 1300px;
+	height: 150px;
+
+}
